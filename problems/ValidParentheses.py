@@ -40,3 +40,4 @@ class ValidParentheses(object):
 if __name__ == '__main__':
     sol = ValidParentheses()
     print(sol.isValid("({[(]})"), "expected False")
+    print(sol.isValid("({[()]})"), "expected True")
